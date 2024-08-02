@@ -1,0 +1,59 @@
+body{
+    background-color: pink;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:5%;
+}
+h1{
+    margin:3rem;
+    font-size:50px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height:300px;
+    width:300px;
+}
+.cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width:40px;
+    background-color: rgb(162, 109, 109);
+    border-radius: 50%;
+    cursor:pointer;
+    margin: -2rem 1rem 0 1rem;
+}
+.cover:hover{
+    background-color: rgba(162, 109, 109, 0.467);
+}
+
+.navigate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+    margin:1rem;
+}
+.circle{
+    height:10px;
+    width:10px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.circle:hover{
+    background-color: rgb(162, 109, 109);
+}
